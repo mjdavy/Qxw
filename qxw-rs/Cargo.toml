@@ -1,0 +1,32 @@
+[package]
+name = "qxw-rs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "qxw"
+path = "src/lib.rs"
+
+[[bin]]
+name = "qxwtool"
+path = "src/main.rs"
+
+[[bin]]
+name = "qxwgtk"
+path = "src/bin/qxwgtk.rs"
+required-features = ["ui-gtk4"]
+
+[features]
+# Build the GTK UI binary (GTK4). Kept optional so the CLI and library stay lightweight.
+ui-gtk4 = ["dep:gtk4", "dep:gio", "dep:glib"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+rand = "0.8"
+gtk4 = { package = "gtk4", version = "0.8", optional = true }
+gio = { version = "0.19", optional = true }
+glib = { version = "0.19", optional = true }
+
+[dev-dependencies]
+tempfile = "3"

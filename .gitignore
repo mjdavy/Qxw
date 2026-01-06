@@ -1,2 +1,12 @@
 *.o
 qxw
+
+# Rust / Cargo
+**/target/
+**/*.rs.bk
+
+# Rust analyzer / tooling
+**/.rustc_info.json
+
+# macOS
+.DS_Store
