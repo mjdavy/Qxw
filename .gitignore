@@ -10,3 +10,5 @@ qxw
 
 # macOS
 .DS_Store
+
+.env

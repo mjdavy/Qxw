@@ -1,0 +1,131 @@
+{
+  "version": "http://ipuz.org/v2",
+  "kind": [
+    "http://ipuz.org/crossword#1"
+  ],
+  "dimensions": {
+    "width": 5,
+    "height": 5
+  },
+  "title": "Mini",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      "#",
+      "#"
+    ],
+    [
+      4,
+      0,
+      0,
+      5,
+      "#"
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      "#",
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      9,
+      0,
+      0
+    ]
+  ],
+  "solution": [
+    [
+      "S",
+      "U",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "B",
+      "E",
+      "L",
+      "#"
+    ],
+    [
+      "M",
+      "E",
+      "R",
+      "I",
+      "T"
+    ],
+    [
+      "#",
+      "R",
+      "I",
+      "M",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "E",
+      "P",
+      "A"
+    ]
+  ],
+  "clues": {
+    "Across": [
+      [
+        1,
+        "take a girl to court"
+      ],
+      [
+        4,
+        "Cain’s brother"
+      ],
+      [
+        6,
+        "Deserve a gold star"
+      ],
+      [
+        8,
+        "Wheel edges"
+      ],
+      [
+        9,
+        "Clean air and water org."
+      ]
+    ],
+    "Down": [
+      [
+        1,
+        "“Uncle ___ wants YOU”"
+      ],
+      [
+        2,
+        "“super” taxi"
+      ],
+      [
+        3,
+        "Creepy canal"
+      ],
+      [
+        5,
+        "Walk like you stepped on a LEGO"
+      ],
+      [
+        7,
+        "The folks who want your liquids in a bag"
+      ]
+    ]
+  }
+}

@@ -9,13 +9,27 @@ Current scope (first slice):
 - Write `.qxw` files in `#QXW2` format (round-trippable)
 
 Non-goals:
-- No GTK UI port (CLI/library only)
+- The CLI/library should remain usable without GTK dependencies
+
+UI status:
+- A GTK4 UI binary exists as `qxwgtk` behind the `ui-gtk4` feature flag.
 
 ## Build
 
 From this directory:
 
 - `cargo build`
+
+### GTK4 UI
+
+The GTK UI is optional and feature-gated.
+
+- Build:
+  - `cargo build --features ui-gtk4 --bin qxwgtk`
+
+- Run (optionally with a file to open):
+  - `cargo run --features ui-gtk4 --bin qxwgtk`
+  - `cargo run --features ui-gtk4 --bin qxwgtk -- path/to/puzzle.qxw`
 
 ## Usage
 
@@ -82,3 +96,27 @@ This does not know true word frequency; it applies simple heuristics (letters on
 
 - Round-trip save back to `#QXW2`:
   - `cargo run --bin qxwtool -- save ../examples/bar.qxw out.qxw`
+
+### Visual inspection: printable SVG export
+
+Export one or more `.qxw` files as printable SVGs (completed grid with letters + clue numbers):
+
+- `cargo run --bin qxwtool -- export-svg out-svgs path/to/puzzle.qxw`
+- Batch (shell glob): `cargo run --bin qxwtool -- export-svg out-svgs out-year/*.qxw`
+
+Options:
+- Change size: `--cell 48`
+- Blank grid (no letters): `--blank`
+- Hide clue numbers: `--no-numbers`
+- Overwrite: `--overwrite`
+
+### Batch generation: one puzzle per day
+
+Generate a full year of dated puzzles (one `.qxw` per day) into a directory, using `dict-wordfreq.txt`:
+
+- `cargo run --bin qxwtool -- generate-year out-year --year 2026 --dict dict-wordfreq.txt`
+
+Notes:
+- Output files are named like `YYYY-MM-DD.qxw`.
+- The generator varies layout across days (open / blocked fixed / blocked auto) and retries to ensure puzzles are unique within the batch.
+- Use `--overwrite` if re-running into an existing directory.

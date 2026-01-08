@@ -1,5 +1,13 @@
 This is the Qxw crossword creation software from:  http://www.quinapalus.com/qxw.html
 
+Rust port (recommended)
+
+This repo also contains an incremental Rust port in the qxw-rs/ folder:
+- CLI tool + library
+- Optional GTK4 UI (feature-gated)
+
+See qxw-rs/README.md for build/run instructions.
+
 The Makefile has been edited to get it working with snowleopard on mac, after following
 the suggestions from the Qxw site:
 

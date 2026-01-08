@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="260" viewBox="0 0 224 260">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="12" y="30" font-family="sans-serif" font-size="16" font-weight="700" fill="black">2026-11-22</text>
+<rect x="12" y="48" width="40" height="40" fill="black" stroke="black" stroke-width="1"/>
+<rect x="52" y="48" width="40" height="40" fill="black" stroke="black" stroke-width="1"/>
+<rect x="92" y="48" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="95" y="59" font-family="sans-serif" font-size="10" fill="black">1</text>
+<text x="112" y="74" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">N</text>
+<rect x="132" y="48" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="135" y="59" font-family="sans-serif" font-size="10" fill="black">2</text>
+<text x="152" y="74" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">U</text>
+<rect x="172" y="48" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="175" y="59" font-family="sans-serif" font-size="10" fill="black">3</text>
+<text x="192" y="74" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">T</text>
+<rect x="12" y="88" width="40" height="40" fill="black" stroke="black" stroke-width="1"/>
+<rect x="52" y="88" width="40" height="40" fill="black" stroke="black" stroke-width="1"/>
+<rect x="92" y="88" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="95" y="99" font-family="sans-serif" font-size="10" fill="black">4</text>
+<text x="112" y="114" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">A</text>
+<rect x="132" y="88" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="152" y="114" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">S</text>
+<rect x="172" y="88" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="192" y="114" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">H</text>
+<rect x="12" y="128" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="15" y="139" font-family="sans-serif" font-size="10" fill="black">5</text>
+<text x="32" y="154" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">B</text>
+<rect x="52" y="128" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="55" y="139" font-family="sans-serif" font-size="10" fill="black">6</text>
+<text x="72" y="154" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">R</text>
+<rect x="92" y="128" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="112" y="154" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">I</text>
+<rect x="132" y="128" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="152" y="154" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">B</text>
+<rect x="172" y="128" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="192" y="154" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">E</text>
+<rect x="12" y="168" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="15" y="179" font-family="sans-serif" font-size="10" fill="black">7</text>
+<text x="32" y="194" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">O</text>
+<rect x="52" y="168" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="72" y="194" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">I</text>
+<rect x="92" y="168" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="112" y="194" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">L</text>
+<rect x="132" y="168" width="40" height="40" fill="black" stroke="black" stroke-width="1"/>
+<rect x="172" y="168" width="40" height="40" fill="black" stroke="black" stroke-width="1"/>
+<rect x="12" y="208" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="15" y="219" font-family="sans-serif" font-size="10" fill="black">8</text>
+<text x="32" y="234" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">A</text>
+<rect x="52" y="208" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="72" y="234" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">D</text>
+<rect x="92" y="208" width="40" height="40" fill="white" stroke="black" stroke-width="1"/>
+<text x="112" y="234" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="black">S</text>
+<rect x="132" y="208" width="40" height="40" fill="black" stroke="black" stroke-width="1"/>
+<rect x="172" y="208" width="40" height="40" fill="black" stroke="black" stroke-width="1"/>
+</svg>

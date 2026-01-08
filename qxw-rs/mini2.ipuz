@@ -1,0 +1,131 @@
+{
+  "version": "http://ipuz.org/v2",
+  "kind": [
+    "http://ipuz.org/crossword#1"
+  ],
+  "dimensions": {
+    "width": 5,
+    "height": 5
+  },
+  "title": "Mini",
+  "puzzle": [
+    [
+      "#",
+      "#",
+      1,
+      2,
+      3
+    ],
+    [
+      "#",
+      "#",
+      4,
+      0,
+      0
+    ],
+    [
+      5,
+      6,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      "#",
+      "#"
+    ],
+    [
+      8,
+      0,
+      0,
+      "#",
+      "#"
+    ]
+  ],
+  "solution": [
+    [
+      "#",
+      "#",
+      "N",
+      "B",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "O",
+      "O",
+      "L"
+    ],
+    [
+      "R",
+      "A",
+      "B",
+      "B",
+      "I"
+    ],
+    [
+      "O",
+      "I",
+      "L",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "R",
+      "E",
+      "#",
+      "#"
+    ]
+  ],
+  "clues": {
+    "Across": [
+      [
+        1,
+        "Hoops org with \"net\" worth"
+      ],
+      [
+        4,
+        "Out of line, briefly"
+      ],
+      [
+        5,
+        "Torah teacher"
+      ],
+      [
+        7,
+        "Crude product"
+      ],
+      [
+        8,
+        "Mining find"
+      ]
+    ],
+    "Down": [
+      [
+        1,
+        "Fit for a lord"
+      ],
+      [
+        2,
+        "Buoy’s motion"
+      ],
+      [
+        3,
+        "Fighter once known as Clay"
+      ],
+      [
+        5,
+        "Aussie hopper for short"
+      ],
+      [
+        6,
+        "What we breathe"
+      ]
+    ]
+  }
+}
