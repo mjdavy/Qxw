@@ -1,13 +1,13 @@
 Across  
-1A JAN — Month after December  
+1A JAN — First month (abbr.)  
 4A ORE — Mineral extracted from the earth  
-5A EERIE — Strange and frightening  
+5A EERIE — Creepy canal? 
 8A DNA — Genetic material  
 9A SIT — Take a seat  
 
 Down  
-1D JOE — Common name for a guy  
+1D JOE — Average guy 
 2D ARE — Form of "to be"  
 3D NERDS — Enthusiasts of academic subjects  
-6D INI — Prefix meaning "small"  
+6D INI — Config file extension  
 7D EAT — Consume food
